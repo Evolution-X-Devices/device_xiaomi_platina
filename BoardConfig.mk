@@ -97,6 +97,9 @@ BOARD_USES_QCNE := true
 # ConfigFS
 TARGET_FS_CONFIG_GEN := $(DEVICE_PATH)/configs/config.fs
 
+# Charger
+TARGET_PIXEL_CHARGE_ANIM := true
+
 # DT2W
 TARGET_TAP_TO_WAKE_NODE := "/proc/touchpanel/wake_gesture"
 
