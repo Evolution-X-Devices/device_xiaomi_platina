@@ -31,6 +31,9 @@ $(call inherit-product, device/xiaomi/platina/device.mk)
 
 # Inherit Evolution-X product configuration
 CUSTOM_BUILD_TYPE := OFFICIAL
+TARGET_INCLUDE_STOCK_ARCORE := true
+TARGET_INCLUDE_WIFI_EXT := true
+TARGET_SUPPORTS_GOOGLE_RECORDER := true
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_GAPPS_ARCH := arm64
 
