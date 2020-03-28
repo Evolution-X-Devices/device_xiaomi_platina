@@ -1,6 +1,6 @@
 [
   {
-    "repository":  "kernel_xiaomi_platina",
+    "repository":  "nysascape/kernel_xiaomi_platina",
     "target_path": "kernel/xiaomi/platina",
     "branch":      "ten"
   },
@@ -9,12 +9,6 @@
     "repository":  "mi8lite/vendor_xiaomi_platina-decommon",
     "target_path": "vendor/xiaomi/platina",
     "branch":      "master"
-  },
-  {
-    "repository": "packages_apps_PixelLiveWallpaper",
-    "target_path": "packages/apps/PixelLiveWallpaper",
-    "branch": "ten",
-    "remote": "pixel-gitlab"
   },
   {
     "repository": "vendor_xiaomi_firmware",
